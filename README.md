@@ -1,5 +1,16 @@
 # Тематичний план курсу
 
+## Експорт матеріалів у PDF
+
+Скрипт `generate_pdfs.py` створює окремі PDF формату A4 для наявних `README.md` у каталогах `Уроки/less-*` та `Практичні/pract-*`. Зображення з підкаталогів уроків і практичних включаються до PDF.
+
+```powershell
+python -m pip install -r requirements-pdf.txt
+python generate_pdfs.py
+```
+
+Результат зберігається в `build/pdf/Уроки/less-XX/less-XX.pdf` та `build/pdf/Практичні/pract-XX/pract-XX.pdf`. Інший каталог можна задати параметром `--output ШЛЯХ`. Для WeasyPrint у Windows можуть знадобитися системні бібліотеки Pango та Cairo.
+
 
 **Обсяг:** 35 академічних годин
 
