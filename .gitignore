@@ -1,0 +1,9 @@
+# Тимчасові файли Microsoft Office та LibreOffice
+~$*
+*.tmp
+*.asd
+*.wbk
+.~lock.*#
+
+# Згенеровані файли в кореневому каталозі
+/build/
