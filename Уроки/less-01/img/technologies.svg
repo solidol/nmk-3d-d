@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 350" role="img" aria-labelledby="title desc">
+  <title id="title">Два способи виготовлення деталі</title>
+  <desc id="desc">Ліворуч 3D-друк додає шари матеріалу; праворуч фреза знімає матеріал із заготовки.</desc>
+  <rect width="900" height="350" rx="18" fill="#f5f8fc"/>
+  <text x="225" y="42" text-anchor="middle" font-family="Arial, sans-serif" font-size="25" font-weight="bold" fill="#18324d">3D-друк: додаємо матеріал</text>
+  <text x="675" y="42" text-anchor="middle" font-family="Arial, sans-serif" font-size="25" font-weight="bold" fill="#18324d">Фрезерування: знімаємо матеріал</text>
+  <line x1="450" y1="22" x2="450" y2="320" stroke="#c7d5e3" stroke-width="2"/>
+  <rect x="70" y="274" width="310" height="18" rx="4" fill="#64748b"/>
+  <rect x="130" y="238" width="190" height="33" rx="3" fill="#2563eb"/>
+  <rect x="145" y="205" width="160" height="31" rx="3" fill="#3b82f6"/>
+  <rect x="160" y="173" width="130" height="30" rx="3" fill="#60a5fa"/>
+  <path d="M203 72h44v63l-11 15h-22l-11-15z" fill="#334155"/>
+  <path d="M217 150h16l-8 18z" fill="#f59e0b"/>
+  <path d="M225 168v22" stroke="#f59e0b" stroke-width="5" stroke-dasharray="6 5"/>
+  <text x="225" y="322" text-anchor="middle" font-family="Arial, sans-serif" font-size="19" fill="#334155">Шар за шаром</text>
+  <rect x="520" y="173" width="310" height="119" rx="4" fill="#94a3b8"/>
+  <path d="M590 173v52h170v-52" fill="#f5f8fc"/>
+  <rect x="643" y="72" width="64" height="115" rx="5" fill="#334155"/>
+  <path d="M655 187h40l-10 29h-20z" fill="#475569"/>
+  <path d="M675 218v24" stroke="#f59e0b" stroke-width="5" stroke-dasharray="5 4"/>
+  <text x="675" y="322" text-anchor="middle" font-family="Arial, sans-serif" font-size="19" fill="#334155">Із заготовки</text>
+</svg>

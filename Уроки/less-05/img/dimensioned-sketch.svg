@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 490" role="img" aria-labelledby="title desc">
+  <title id="title">Ескіз пластини з розмірами</title>
+  <desc id="desc">Прямокутна пластина завширшки 60 міліметрів і заввишки 30 міліметрів; посередині отвір діаметром 8 міліметрів. Центр отвору на відстані 30 міліметрів від лівого краю та 15 міліметрів від нижнього.</desc>
+  <rect width="900" height="490" rx="18" fill="#f5f8fc"/>
+  <text x="450" y="42" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="bold" fill="#18324d">Розміри навчального ескізу</text>
+  <rect x="230" y="145" width="480" height="240" fill="#dbeafe" stroke="#2563eb" stroke-width="4"/>
+  <circle cx="470" cy="265" r="32" fill="#f5f8fc" stroke="#ea580c" stroke-width="4"/>
+  <path d="M470 135v260M220 265h500" stroke="#94a3b8" stroke-width="2" stroke-dasharray="7 6"/>
+  <path d="M230 105h480m-480-11v22m480-22v22" stroke="#18324d" stroke-width="2"/>
+  <text x="470" y="94" text-anchor="middle" font-family="Arial, sans-serif" font-size="21" fill="#18324d">60 мм</text>
+  <path d="M760 145v240m-11-240h22m-22 240h22" stroke="#18324d" stroke-width="2"/>
+  <text x="800" y="272" font-family="Arial, sans-serif" font-size="21" fill="#18324d">30 мм</text>
+  <path d="M230 425h240m-240-10v20m240-20v20" stroke="#18324d" stroke-width="2"/>
+  <text x="350" y="455" text-anchor="middle" font-family="Arial, sans-serif" font-size="19" fill="#18324d">30 мм до центра</text>
+  <path d="M186 265v120m-10-120h20m-10 120h20" stroke="#18324d" stroke-width="2"/>
+  <text x="44" y="332" font-family="Arial, sans-serif" font-size="18" fill="#18324d">15 мм</text>
+  <path d="M492 243l59-50" stroke="#c2410c" stroke-width="2"/>
+  <text x="550" y="185" font-family="Arial, sans-serif" font-size="19" fill="#c2410c">⌀ 8 мм</text>
+  <text x="450" y="479" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#475569">Схема показує геометрію і розміри, а не умовні позначки програми.</text>
+</svg>

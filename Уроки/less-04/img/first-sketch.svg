@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 370" role="img" aria-labelledby="title desc">
+  <title id="title">Перший ескіз пластини з отвором</title>
+  <desc id="desc">Замкнутий прямокутний контур і коло всередині нього на площині ескізу.</desc>
+  <rect width="900" height="370" rx="18" fill="#f5f8fc"/>
+  <text x="450" y="43" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="bold" fill="#18324d">Два замкнуті контури</text>
+  <path d="M75 190h750M450 70v250" stroke="#cbd5e1" stroke-width="2" stroke-dasharray="8 8"/>
+  <rect x="245" y="115" width="410" height="150" fill="#dbeafe" stroke="#2563eb" stroke-width="5"/>
+  <circle cx="450" cy="190" r="36" fill="#f5f8fc" stroke="#ea580c" stroke-width="5"/>
+  <text x="198" y="292" font-family="Arial, sans-serif" font-size="20" fill="#2563eb">Прямокутник</text>
+  <path d="M362 278l-80-15" stroke="#2563eb" stroke-width="2"/>
+  <text x="572" y="315" font-family="Arial, sans-serif" font-size="20" fill="#c2410c">Коло</text>
+  <path d="M610 295L480 218" stroke="#c2410c" stroke-width="2"/>
+  <text x="450" y="347" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#475569">На цьому етапі точні розміри ще не задано.</text>
+</svg>
