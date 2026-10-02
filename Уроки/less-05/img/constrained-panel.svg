@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" role="img" aria-labelledby="title desc">
+  <title id="title">Панель 100 на 50 міліметрів</title>
+  <desc id="desc">Початок координат у нижньому лівому куті. Центри чотирьох кіл діаметром 6: A 10,10; B 90,10; C 10,40; D 90,40. Вікно 30 на 16 починається в E 25,17. Трикутник P 65,17; Q 85,17; R 75,33.</desc>
+  <rect width="900" height="480" rx="18" fill="#f5f8fc"/>
+  <g font-family="Arial, sans-serif" fill="#18324d" text-anchor="middle">
+    <text x="450" y="35" font-size="24" font-weight="bold">Панель: розміри та опорні точки</text>
+    <text x="450" y="65" font-size="17">Усі значення в мм; координати точок наведено в таблиці</text>
+  </g>
+  <rect x="130" y="110" width="600" height="300" fill="#dbeafe" stroke="#2563eb" stroke-width="3"/>
+  <g fill="#f5f8fc" stroke="#ea580c" stroke-width="3">
+    <circle cx="190" cy="350" r="18"/><circle cx="670" cy="350" r="18"/>
+    <circle cx="190" cy="170" r="18"/><circle cx="670" cy="170" r="18"/>
+    <rect x="280" y="212" width="180" height="96"/>
+    <path d="M520 308 L640 308 L580 212 Z"/>
+  </g>
+  <g stroke="#18324d" stroke-width="2" fill="none">
+    <path d="M130 90 H730 M130 82 V100 M730 82 V100 M760 110 V410 M752 110 H770 M752 410 H770"/>
+    <path d="M130 410 H800 l-10 -5 m10 5 l-10 5 M130 410 V105"/>
+    <path d="M125 120 L130 105 L135 120"/>
+  </g>
+  <g font-family="Arial, sans-serif" fill="#18324d" font-size="18">
+    <text x="415" y="84">100</text><text x="775" y="267">50</text>
+    <text x="105" y="435">O</text><text x="808" y="417">X</text><text x="105" y="109">Y</text>
+    <text x="183" y="389">A</text><text x="663" y="389">B</text>
+    <text x="183" y="141">C</text><text x="663" y="141">D</text>
+    <text x="264" y="332">E</text><text x="343" y="266">30 × 16</text>
+    <text x="506" y="334">P</text><text x="638" y="334">Q</text><text x="574" y="199">R</text>
+    <text x="450" y="460" text-anchor="middle">Чотири кола ⌀ 6; осі та літери — пояснення до схеми.</text>
+  </g>
+</svg>
