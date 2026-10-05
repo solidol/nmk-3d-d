@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="460" viewBox="0 0 960 460" role="img" aria-labelledby="title desc">
+<title id="title">Брелок: вид зверху та перерізи</title><desc id="desc">Основа 40 на 30 мм, товщина 3 мм; отвір діаметром 4 мм із центром 6 і 15 мм; рельєф або заглиблення 1 мм.</desc>
+<defs><marker id="arrow" markerWidth="7" markerHeight="7" refX="3.5" refY="3.5" orient="auto-start-reverse"><path d="M0,0 L7,3.5 L0,7 Z" fill="#334155"/></marker></defs>
+<style>text{font-family:Arial,sans-serif;font-size:18px;fill:#172554}.small{font-size:15px}.head{font-size:22px;font-weight:bold}.shape{fill:#dbeafe;stroke:#1d4ed8;stroke-width:2}.dim{stroke:#334155;stroke-width:1.3;marker-start:url(#arrow);marker-end:url(#arrow)}.guide{stroke:#64748b;stroke-width:1;stroke-dasharray:5 4}.logo{fill:#0f766e;stroke:#115e59;stroke-width:1.5}</style>
+<rect width="960" height="460" fill="white"/>
+<text x="45" y="38" class="head">Брелок та власний знак</text>
+<rect x="90" y="110" width="240" height="180" class="shape"/>
+<circle cx="126" cy="200" r="12" fill="white" stroke="#1d4ed8" stroke-width="2"/>
+<line x1="109" y1="200" x2="143" y2="200" class="guide"/><line x1="126" y1="183" x2="126" y2="217" class="guide"/>
+<path d="M120 188 L75 155" fill="none" stroke="#334155"/><text x="14" y="149" class="small">⌀4 мм</text>
+<rect x="180" y="140" width="120" height="120" fill="none" class="guide"/>
+<path d="M200 245 L200 160 L218 160 L218 227 L280 227 L280 245 Z" class="logo"/>
+<line x1="90" y1="80" x2="330" y2="80" class="dim"/><text x="195" y="70">40</text>
+<line x1="55" y1="110" x2="55" y2="290" class="dim"/><text x="20" y="205">30</text>
+<text x="88" y="322" class="small">Центр отвору: (6; 15) мм</text>
+<text x="88" y="347" class="small">Поле: X 15–35; Y 5–25 мм</text>
+<text x="88" y="372" class="small">Перемичка: 6 − 2 = 4 мм</text>
+<text x="470" y="38" class="head">Варіанти перерізу</text>
+<text x="470" y="83">Виступ: Join</text>
+<path d="M490 155 L490 125 L570 125 L570 115 L670 115 L670 125 L790 125 L790 155 Z" class="shape"/>
+<line x1="840" y1="125" x2="840" y2="155" class="dim"/><text x="855" y="147">3</text>
+<path d="M675 115 L710 98" fill="none" stroke="#334155"/><text x="716" y="102">+1 мм</text>
+<text x="470" y="225">Заглиблення: Cut</text>
+<path d="M490 310 L490 280 L570 280 L570 290 L670 290 L670 280 L790 280 L790 310 Z" class="shape"/>
+<path d="M660 289 L709 264" fill="none" stroke="#334155"/><text x="716" y="267">1 мм</text>
+<text x="480" y="349" class="small">Залишок під заглибленням: 3 − 1 = 2 мм</text>
+<text x="45" y="415" class="small">Умовний знак; форму оберіть самостійно. Перерізи збільшено для читабельності.</text>
+</svg>
