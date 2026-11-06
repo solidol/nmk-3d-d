@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 390" role="img" aria-labelledby="title desc">
+  <title id="title">Порівняння гострого ребра, скруглення та фаски</title>
+  <desc id="desc">Три профілі кута: прямий гострий кут, кут із дугою радіуса та кут із плоским скосом.</desc>
+  <rect width="1100" height="390" rx="18" fill="#f8fafc"/>
+  <text x="550" y="42" text-anchor="middle" font-family="Arial, sans-serif" font-size="27" font-weight="700" fill="#18324d">Обробка ребер твердого тіла</text>
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <g transform="translate(70 90)"><rect width="270" height="230" rx="14" fill="#f1f5f9" stroke="#64748b" stroke-width="3"/><path d="M60 175V55h150v120z" fill="#cbd5e1" stroke="#334155" stroke-width="5"/><circle cx="210" cy="55" r="7" fill="#ef4444"/><text x="135" y="210" font-size="21" fill="#18324d">Гостре ребро</text></g>
+    <g transform="translate(415 90)"><rect width="270" height="230" rx="14" fill="#ecfdf5" stroke="#16a34a" stroke-width="3"/><path d="M60 175V55h105a45 45 0 0145 45v75z" fill="#bbf7d0" stroke="#15803d" stroke-width="5"/><path d="M165 55a45 45 0 0145 45" fill="none" stroke="#ef4444" stroke-width="5"/><text x="135" y="210" font-size="21" fill="#18324d">Fillet — радіус R</text></g>
+    <g transform="translate(760 90)"><rect width="270" height="230" rx="14" fill="#fff7ed" stroke="#f97316" stroke-width="3"/><path d="M60 175V55h105l45 45v75z" fill="#fed7aa" stroke="#c2410c" stroke-width="5"/><path d="M165 55l45 45" stroke="#ef4444" stroke-width="5"/><text x="135" y="210" font-size="21" fill="#18324d">Chamfer — фаска</text></g>
+  </g>
+  <text x="550" y="360" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#475569">Червоним позначено ділянку, що замінює гостре ребро.</text>
+</svg>

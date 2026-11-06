@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 590" role="img" aria-labelledby="title desc">
+  <title id="title">Тренувальна деталь для скруглень і фасок</title>
+  <desc id="desc">Прямокутна основа із двома виступами та центральним отвором; синім позначено скруглення, помаранчевим — фаски виступів, червоним — фаску отвору.</desc>
+  <defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#475569"/></marker></defs>
+  <rect width="1100" height="590" rx="18" fill="#f8fafc"/>
+  <text x="550" y="42" text-anchor="middle" font-family="Arial, sans-serif" font-size="27" font-weight="700" fill="#18324d">Тренувальна деталь</text>
+  <path d="M190 380l360 150 360-150-360-150z" fill="#dbeafe" stroke="#334155" stroke-width="4"/>
+  <path d="M190 380v-120l360 150v120M910 380V260L550 410" fill="#bfdbfe" stroke="#334155" stroke-width="4"/>
+  <path d="M275 282l115 48 105-44-115-48zM605 286l105 44 115-48-105-44z" fill="#fed7aa" stroke="#334155" stroke-width="4"/>
+  <path d="M275 282v-95l115 48 105-44v95M605 286v-95l105 44 115-48v95" fill="#ffedd5" stroke="#334155" stroke-width="4"/>
+  <path d="M275 187l115 48 105-44-115-48zM605 191l105 44 115-48-105-44z" fill="#fdba74" stroke="#f97316" stroke-width="7"/>
+  <ellipse cx="550" cy="325" rx="48" ry="20" fill="#fff" stroke="#dc2626" stroke-width="6"/>
+  <path d="M502 325v72M598 325v72" stroke="#64748b" stroke-width="3" stroke-dasharray="7 6"/>
+  <path d="M208 387Q190 380 190 360M892 387Q910 380 910 360M532 522Q550 530 568 522" fill="none" stroke="#2563eb" stroke-width="9"/>
+  <g font-family="Arial, sans-serif" font-size="20" fill="#18324d">
+    <text x="70" y="170">Fillet R4</text><path d="M160 175l70 170" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+    <text x="825" y="120">Chamfer 1</text><path d="M890 130l-115 55" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+    <text x="460" y="105">Chamfer 0,8</text><path d="M535 115l15 185" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+    <text x="455" y="570">Основа 60 × 40 × 8 мм</text>
+  </g>
+</svg>
