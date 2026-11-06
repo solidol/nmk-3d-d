@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 350" role="img" aria-labelledby="title desc">
+  <title id="title">Послідовність створення брелка</title>
+  <desc id="desc">Три етапи: витягування основи, додавання або заглиблення логотипу та вирізання наскрізного отвору.</desc>
+  <defs><marker id="a" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0 0L9 4.5L0 9Z" fill="#475569"/></marker></defs>
+  <rect width="1100" height="350" rx="18" fill="#f8fafc"/>
+  <text x="550" y="42" text-anchor="middle" font-family="Arial, sans-serif" font-size="27" font-weight="700" fill="#18324d">Від ескізу до брелка</text>
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <g transform="translate(70 85)"><rect width="270" height="205" rx="14" fill="#eff6ff" stroke="#2563eb" stroke-width="3"/><path d="M45 125l90-50 90 50-90 50z" fill="#bfdbfe" stroke="#1d4ed8" stroke-width="4"/><path d="M45 125v-25l90 50 90-50v25" fill="#93c5fd" stroke="#1d4ed8" stroke-width="4"/><text x="135" y="190" font-size="20" fill="#18324d">1. Основа — New Body</text></g>
+    <g transform="translate(415 85)"><rect width="270" height="205" rx="14" fill="#fff7ed" stroke="#ea580c" stroke-width="3"/><path d="M45 125l90-50 90 50-90 50z" fill="#fed7aa" stroke="#c2410c" stroke-width="4"/><path d="M112 117l23-32 23 32-23 13z" fill="#fb923c" stroke="#9a3412" stroke-width="3"/><text x="135" y="190" font-size="20" fill="#18324d">2. Логотип — Join / Cut</text></g>
+    <g transform="translate(760 85)"><rect width="270" height="205" rx="14" fill="#ecfdf5" stroke="#16a34a" stroke-width="3"/><path d="M45 125l90-50 90 50-90 50z" fill="#bbf7d0" stroke="#15803d" stroke-width="4"/><ellipse cx="75" cy="122" rx="18" ry="10" fill="#fff" stroke="#dc2626" stroke-width="4"/><text x="135" y="190" font-size="20" fill="#18324d">3. Отвір — Cut</text></g>
+  </g>
+  <path d="M350 187h50M695 187h50" stroke="#475569" stroke-width="4" marker-end="url(#a)"/>
+  <text x="550" y="325" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#475569">У браузері має залишитися одне цілісне тіло.</text>
+</svg>
