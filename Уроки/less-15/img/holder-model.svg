@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="360" viewBox="0 0 1040 360" role="img" aria-labelledby="t d">
+  <title id="t">Послідовність моделювання тримача</title><desc id="d">Чотири етапи: основа, опора з бортиком, виріз кабельного каналу та обробка країв.</desc>
+  <defs><marker id="a" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0 0 9 4.5 0 9Z" fill="#475569"/></marker></defs>
+  <rect width="1040" height="360" fill="#f8fafc"/>
+  <g fill="#bfdbfe" stroke="#1d4ed8" stroke-width="4">
+    <path d="M30 235h190l35-20H65Z"/><path d="M30 235v25h190l35-20v-25" fill="#93c5fd"/>
+    <g transform="translate(270)"><path d="M30 235h190l35-20H65Z"/><path d="M30 235v25h190l35-20v-25" fill="#93c5fd"/><path d="M105 220 155 75l22 7-43 138M95 220v-38h20v38"/></g>
+    <g transform="translate(540)"><path d="M30 235h190l35-20H65Z"/><path d="M30 235v25h190l35-20v-25" fill="#93c5fd"/><path d="M105 220 155 75l22 7-43 138M95 220v-38h20v38"/><path d="M122 220h28l20 20h-28Z" fill="#fff"/></g>
+    <g transform="translate(810)"><path d="M30 235h190l35-20H65Z"/><path d="M30 235v25h190l35-20v-25" fill="#60a5fa"/><path d="M105 220Q120 150 155 75l22 7q-30 80-43 138M95 220v-38h20v38"/><path d="M122 220h28l20 20h-28Z" fill="#fff"/></g>
+  </g>
+  <g stroke="#475569" stroke-width="4" marker-end="url(#a)"><path d="M250 150h35"/><path d="M520 150h35"/><path d="M790 150h35"/></g>
+  <g font-family="Arial" font-size="23" fill="#0f172a"><text x="70" y="310">1. Основа</text><text x="325" y="310">2. Опора</text><text x="585" y="310">3. Канал</text><text x="845" y="310">4. Обробка</text></g>
+</svg>
