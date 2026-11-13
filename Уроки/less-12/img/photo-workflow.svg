@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="360" viewBox="0 0 960 360" role="img" aria-labelledby="t d">
+  <title id="t">Етапи моделювання за фотографією</title><desc id="d">Зображення калібрують, обводять спрощеним контуром і витягують у тіло.</desc>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0 0 10 5 0 10Z" fill="#475569"/></marker></defs>
+  <rect width="960" height="360" fill="#f8fafc"/>
+  <g transform="translate(35 55)"><rect width="240" height="210" rx="10" fill="#e2e8f0" stroke="#64748b" stroke-width="3"/><path d="M40 145Q80 55 145 90T205 130L185 165H55Z" fill="#94a3b8"/><path d="M35 185h170" stroke="#f59e0b" stroke-width="5"/><text x="65" y="205" font-family="Arial" font-size="19">50 мм</text><text x="65" y="245" font-family="Arial" font-size="23">1. Canvas + Calibrate</text></g>
+  <path d="M300 160h65" stroke="#475569" stroke-width="5" marker-end="url(#a)"/>
+  <g transform="translate(385 55)"><rect width="210" height="210" rx="10" fill="#fff" stroke="#64748b" stroke-width="3"/><path d="M25 145Q65 55 130 90T190 130L170 165H40Z" fill="none" stroke="#1d4ed8" stroke-width="5"/><circle cx="150" cy="120" r="15" fill="none" stroke="#1d4ed8" stroke-width="4"/><text x="15" y="245" font-family="Arial" font-size="23">2. Замкнений контур</text></g>
+  <path d="M620 160h65" stroke="#475569" stroke-width="5" marker-end="url(#a)"/>
+  <g transform="translate(705 55)"><path d="M15 160 45 130Q85 40 150 75T210 115L190 150 160 180H45Z" fill="#93c5fd" stroke="#1d4ed8" stroke-width="4"/><path d="M45 130v30M190 150v30" stroke="#1d4ed8" stroke-width="4"/><text x="15" y="245" font-family="Arial" font-size="23">3. Extrude 3 мм</text></g>
+</svg>
