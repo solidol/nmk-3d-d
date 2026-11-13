@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="500" viewBox="0 0 980 500" role="img" aria-labelledby="t d">
+  <title id="t">Параметри телефона і схема тримача</title><desc id="d">Фронтальний телефон із розмірами W і C та бічна схема тримача з нахиленою опорою.</desc>
+  <rect width="980" height="500" fill="#f8fafc"/>
+  <g transform="translate(70 55)"><rect x="35" width="220" height="350" rx="25" fill="#e2e8f0" stroke="#334155" stroke-width="5"/><circle cx="145" cy="330" r="8" fill="#334155"/><path d="M35 390h220M35 375v30M255 375v30" stroke="#1d4ed8" stroke-width="3"/><text x="135" y="425" font-family="Arial" font-size="27">W</text><path d="M285 350V240" stroke="#1d4ed8" stroke-width="3"/><text x="295" y="300" font-family="Arial" font-size="27">C</text><text x="60" y="460" font-family="Arial" font-size="24">виміри телефона</text></g>
+  <g transform="translate(480 60)" stroke="#1d4ed8" stroke-width="5"><path d="M20 350H380V325H250L170 40l-25 8 70 277H20Z" fill="#bfdbfe"/><rect x="162" y="35" width="32" height="285" rx="8" transform="rotate(-14 162 35)" fill="#e2e8f0" stroke="#334155"/><path d="M210 325v-55h25v55" fill="#93c5fd"/></g>
+  <g font-family="Arial" font-size="24" fill="#0f172a"><text x="620" y="455">основа ≥ 80 × 75</text><text x="735" y="190">65–75°</text><text x="640" y="360">канал ≥ 12</text></g>
+</svg>
