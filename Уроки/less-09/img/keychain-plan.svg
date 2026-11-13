@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420" role="img" aria-labelledby="title desc">
+  <title id="title">Розмірна схема іменного брелока</title>
+  <desc id="desc">Заокруглена пластина сімдесят на тридцять міліметрів з отвором, написом і логотипом.</desc>
+  <defs><marker id="a" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M8 0 0 4 8 8" fill="none" stroke="#334155"/></marker></defs>
+  <rect width="900" height="420" fill="#f8fafc"/>
+  <rect x="120" y="100" width="630" height="180" rx="54" fill="#dbeafe" stroke="#1d4ed8" stroke-width="5"/>
+  <circle cx="192" cy="190" r="27" fill="#fff" stroke="#1d4ed8" stroke-width="5"/>
+  <text x="310" y="210" font-family="Arial, sans-serif" font-size="66" font-weight="700" fill="#1e3a8a">ІМ’Я</text>
+  <path d="M650 155 681 217 619 217Z" fill="#f59e0b" stroke="#92400e" stroke-width="4"/>
+  <g stroke="#334155" stroke-width="2" fill="none">
+    <path d="M120 305v45M750 305v45M120 335h630" marker-start="url(#a)" marker-end="url(#a)"/>
+    <path d="M85 100H45M85 280H45M60 100v180" marker-start="url(#a)" marker-end="url(#a)"/>
+    <path d="M192 190v-125M120 65h72" marker-start="url(#a)" marker-end="url(#a)"/>
+    <path d="M165 190h54" marker-start="url(#a)" marker-end="url(#a)"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="25" fill="#0f172a">
+    <text x="415" y="330">70</text><text x="18" y="200">30</text><text x="140" y="55">8</text><text x="166" y="180">⌀6</text>
+    <text x="580" y="375">товщина 4; кути R6</text>
+  </g>
+</svg>
