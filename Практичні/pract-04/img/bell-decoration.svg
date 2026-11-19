@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="520" viewBox="0 0 1000 520" role="img" aria-labelledby="title desc">
+  <title id="title">Декоративний пояс і напис на поверхні дзвона</title><desc id="desc">На корпус дзвона нанесено повторюваний геометричний орнамент і заглиблений напис.</desc>
+  <defs>
+    <pattern id="ornament" width="48" height="34" patternUnits="userSpaceOnUse"><path d="M2 17 24 3l22 14-22 14Z" fill="none" stroke="#92400e" stroke-width="3"/><circle cx="24" cy="17" r="5" fill="#f59e0b"/></pattern>
+  </defs>
+  <rect width="1000" height="520" fill="#f8fafc"/>
+  <g transform="translate(70 30)" stroke="#b45309" stroke-width="5">
+    <ellipse cx="260" cy="410" rx="210" ry="48" fill="#fcd34d"/>
+    <path d="M50 410v-50c0-22 35-45 50-70 50-90 60-175 75-225h170c15 50 25 135 75 225 15 25 50 48 50 70v50" fill="#fef3c7"/>
+    <ellipse cx="260" cy="65" rx="85" ry="28" fill="#fde68a"/>
+    <rect x="205" y="5" width="110" height="62" rx="31" fill="#fde68a"/>
+    <circle cx="260" cy="36" r="15" fill="#fff"/>
+    <path d="M102 285h316v54H102Z" fill="url(#ornament)"/>
+    <path d="M130 355h260" fill="none"/>
+    <text x="260" y="230" font-family="Arial" font-size="38" font-weight="700" text-anchor="middle" fill="#92400e" stroke="none">МІЙ ДЗВІН</text>
+  </g>
+  <g font-family="Arial" fill="#0f172a"><text x="620" y="135" font-size="28">Творчий прийом</text><text x="620" y="185" font-size="23">1. Власний елемент орнаменту</text><text x="620" y="225" font-size="23">2. Повторюваний пояс Emboss</text><text x="620" y="265" font-size="23">3. Окремий напис Deboss</text><text x="620" y="305" font-size="23">4. Перевірка уступів і товщини</text><text x="620" y="365" font-size="21">Рельєф: 0,4–0,7 мм</text><text x="620" y="400" font-size="21">Без різьби та копіювання декору</text></g>
+</svg>

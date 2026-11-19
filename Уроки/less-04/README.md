@@ -120,4 +120,6 @@
 - [Прямокутники в ескізах](https://help.autodesk.com/cloudhelp/ENU/Fusion-Sketch/files/SKT-SKETCH-CREATE-RECTANGLES.htm).
 - [Побудова кіл](https://help.autodesk.com/cloudhelp/ENU/Fusion-Sketch/files/SKT-CREATE-CIRCLES.htm).
 
+Підготовлений ескіз використайте як основу для [практичної роботи 1](../../Практичні/pract-01/README.md), яку буде завершено після опрацювання розмірів і геометричних обмежень на уроці 5.
+
 [До тематичного плану](../../README.md) · [Попередній урок](../less-03/README.md) · [Наступний урок](../less-05/README.md)

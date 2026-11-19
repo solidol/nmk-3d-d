@@ -137,4 +137,6 @@
 - [Нанесення розмірів — Autodesk](https://help.autodesk.com/view/fusion360/ENU/?contextId=SKT-CREATE-DIMENSIONS).
 - [Повне визначення ескізу — Autodesk](https://help.autodesk.com/cloudhelp/ENU/Fusion-Sketch/files/SKT-FULLY-DEFINE-CONSTRAIN-SKETCH.htm).
 
+Після уроку виконайте [практичну роботу 1 «Ескіз монтажної панелі»](../../Практичні/pract-01/README.md).
+
 [До тематичного плану](../../README.md) · [Попередній урок](../less-04/README.md) · [Наступний урок](../less-06/README.md)
