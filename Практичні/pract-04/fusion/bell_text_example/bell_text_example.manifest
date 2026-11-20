@@ -1,0 +1,10 @@
+{
+  "autodeskProduct": "Fusion360",
+  "type": "script",
+  "author": "Навчальний приклад",
+  "description": {
+    "": "Створює спрощений дзвін командою Revolve та рельєфний напис."
+  },
+  "supportedOS": "windows|mac",
+  "editEnabled": true
+}
