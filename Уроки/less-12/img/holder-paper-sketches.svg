@@ -18,32 +18,32 @@
       <text x="529" y="54">Б. Начерк згори</text>
     </g>
     <g stroke="#253348" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M93 334l138 1 151-1 42 1-1 13-156 1-174-1z" fill="#dce7ed"/>
+      <path d="M93 334l138 1 43-1v14H93z" fill="#dce7ed"/>
       <path d="M254 335l-51-176 12-4 56 180z" fill="#b3cbd8"/>
       <path d="M192 335l37-86 25 87z" fill="#c6dbe5"/>
       <path d="M270 316l-65-182q-2-7 5-9l14-5q6-2 8 5l66 181z" fill="#eeeae1"/>
-      <path d="M310 334l-1-26 13 1 1 26" fill="#b3cbd8"/>
-      <path d="M596 120l148 1 154-2-1 204-116 1v-72l-56 1 1 71-130-1z" fill="#dce7ed"/>
+      <path d="M596 120l148 1 154-2-1 204-116 1v-72l-56 1 1 71-130-1z" fill="#dce7ed" stroke="none"/>
+      <path d="M745 253h-20l1 71-130-1V120l148 1 154-2-1 204-116 1v-72h-21" fill="none"/>
       <path d="M636 169l40-1v40l-41 1z M820 168l41 1-1 40-41-1z" fill="#c6dbe5"/>
       <path d="M620 207l253-1v15l-253 1z" fill="#b3cbd8"/>
       <path d="M620 252l104 1v14l-105 1z M782 251l91 1v15l-92-1z" fill="#b3cbd8"/>
     </g>
     <g fill="none" stroke="#475569" stroke-width="1.6" marker-end="url(#arrow)">
       <path d="M125 151l70 19"/><path d="M136 268l78 29"/>
-      <path d="M390 274l-67 34"/><path d="M133 376l36-24"/>
+      <path d="M133 376l36-24"/>
       <path d="M684 98l-23 66"/><path d="M918 302l-44-32"/>
     </g>
     <path d="M280 312l5 13 10-3-5-14z" fill="#f4c09f" stroke="#a34024" stroke-width="2"/>
     <path d="M290 324l4 11" fill="none" stroke="#a34024" stroke-width="3.5" stroke-linecap="round"/>
     <path d="M294 335q3 8 19 8l128-1M752 237q-1 63 2 120" fill="none" stroke="#a34024" stroke-width="2.7" stroke-dasharray="7 5" marker-end="url(#cable-arrow)"/>
-    <path d="M272 335v13m32-13v13" fill="none" stroke="#a34024" stroke-dasharray="3 3"/>
+    <path d="M275 349h148" fill="none" stroke="#7a8a9d" stroke-width="1.2" stroke-dasharray="4 5"/>
     <g font-size="18">
       <text x="48" y="141">опора</text>
       <text x="48" y="265">ребро</text>
-      <text x="359" y="265">бортик</text>
       <text x="67" y="389">основа</text>
       <text x="329" y="322" fill="#a34024">штекер</text>
-      <text x="251" y="420" fill="#a34024">пряма ділянка → вільний згин</text>
+      <text x="251" y="402" fill="#475569">розріз уздовж каналу</text>
+      <text x="251" y="425" fill="#a34024">пряма ділянка → вільний згин</text>
       <text x="650" y="93">ребра за опорою</text>
       <text x="903" y="322">бортик</text>
       <text x="747" y="393" text-anchor="middle" fill="#a34024">проріз відкритий до переднього краю</text>

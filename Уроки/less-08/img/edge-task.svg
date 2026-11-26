@@ -1,21 +1,67 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 590" role="img" aria-labelledby="title desc">
-  <title id="title">Тренувальна деталь для скруглень і фасок</title>
-  <desc id="desc">Прямокутна основа із двома виступами та центральним отвором; синім позначено скруглення, помаранчевим — фаски виступів, червоним — фаску отвору.</desc>
-  <defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#475569"/></marker></defs>
-  <rect width="1100" height="590" rx="18" fill="#f8fafc"/>
-  <text x="550" y="42" text-anchor="middle" font-family="Arial, sans-serif" font-size="27" font-weight="700" fill="#18324d">Тренувальна деталь</text>
-  <path d="M190 380l360 150 360-150-360-150z" fill="#dbeafe" stroke="#334155" stroke-width="4"/>
-  <path d="M190 380v-120l360 150v120M910 380V260L550 410" fill="#bfdbfe" stroke="#334155" stroke-width="4"/>
-  <path d="M275 282l115 48 105-44-115-48zM605 286l105 44 115-48-105-44z" fill="#fed7aa" stroke="#334155" stroke-width="4"/>
-  <path d="M275 282v-95l115 48 105-44v95M605 286v-95l105 44 115-48v95" fill="#ffedd5" stroke="#334155" stroke-width="4"/>
-  <path d="M275 187l115 48 105-44-115-48zM605 191l105 44 115-48-105-44z" fill="#fdba74" stroke="#f97316" stroke-width="7"/>
-  <ellipse cx="550" cy="325" rx="48" ry="20" fill="#fff" stroke="#dc2626" stroke-width="6"/>
-  <path d="M502 325v72M598 325v72" stroke="#64748b" stroke-width="3" stroke-dasharray="7 6"/>
-  <path d="M208 387Q190 380 190 360M892 387Q910 380 910 360M532 522Q550 530 568 522" fill="none" stroke="#2563eb" stroke-width="9"/>
-  <g font-family="Arial, sans-serif" font-size="20" fill="#18324d">
-    <text x="70" y="170">Fillet R4</text><path d="M160 175l70 170" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
-    <text x="825" y="120">Chamfer 1</text><path d="M890 130l-115 55" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
-    <text x="460" y="105">Chamfer 0,8</text><path d="M535 115l15 185" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
-    <text x="455" y="570">Основа 60 × 40 × 8 мм</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="520" viewBox="0 0 960 520" role="img" aria-labelledby="title desc">
+  <title id="title">Які ребра обробити на тренувальній деталі</title>
+  <desc id="desc">На вигляді згори синім показано радіуси чотирьох кутів основи, помаранчевим виділено верхні периметри двох виступів, червоним позначено кільце фаски біля отвору. Розріз А–А показує скіс виступів і наскрізний отвір із верхньою фаскою.</desc>
+  <rect width="960" height="520" rx="16" fill="#f1f5f9"/>
+  <rect x="20" y="20" width="450" height="369" rx="12" fill="#fff"/>
+  <rect x="490" y="20" width="450" height="369" rx="12" fill="#fff"/>
+  <g font-family="Arial,sans-serif" fill="#152b43">
+    <text x="44" y="59" font-size="25" font-weight="bold">Вигляд згори</text>
+    <text x="514" y="59" font-size="25" font-weight="bold">Розріз А–А</text>
+    <text x="245" y="93" font-size="18" text-anchor="middle">Основа 60 × 40 × 8 мм</text>
+    <text x="715" y="93" font-size="18" text-anchor="middle">Місце й форма фасок</text>
+    <rect x="65" y="110" width="360" height="240" rx="24" fill="#dbe9fa"/>
+    <path d="M89 110H401 M425 134V326 M401 350H89 M65 326V134" fill="none" stroke="#516b81" stroke-width="2"/>
+    <path d="M65 134a24 24 0 0 1 24-24 M401 110a24 24 0 0 1 24 24 M425 326a24 24 0 0 1-24 24 M89 350a24 24 0 0 1-24-24" fill="none" stroke="#175abd" stroke-width="5"/>
+    <g fill="#ffefcf" stroke="#a55a0b" stroke-width="2">
+      <rect x="89" y="182" width="108" height="96"/>
+      <rect x="293" y="182" width="108" height="96"/>
+    </g>
+    <g fill="#fff8e8" stroke="#e7841a" stroke-width="3">
+      <rect x="95" y="188" width="96" height="84"/>
+      <rect x="299" y="188" width="96" height="84"/>
+    </g>
+    <circle cx="245" cy="230" r="34.8" fill="#ffdada" stroke="#c53434" stroke-width="2"/>
+    <circle cx="245" cy="230" r="30" fill="#fff" stroke="#9c3535" stroke-width="2"/>
+    <g font-size="17" text-anchor="middle">
+      <text x="143" y="222" text-anchor="middle">Виступ</text>
+      <text x="143" y="246" text-anchor="middle">18 × 16</text>
+      <text x="347" y="222" text-anchor="middle">Виступ</text>
+      <text x="347" y="246" text-anchor="middle">18 × 16</text>
+      <text x="245" y="236" text-anchor="middle">⌀10</text>
+    </g>
+    <g fill="#5b6e82" font-size="17">
+      <text x="33" y="220">А</text>
+      <text x="438" y="220">А</text>
+    </g>
+    <path d="M35 230H61 M429 230H454" fill="none" stroke="#5b6e82" stroke-width="2" stroke-dasharray="5 4"/>
+    <g fill="#dbe9fa">
+      <path d="M535 260h24v-42l6-6h96l6 6v42h13l5 5v43H535Z"/>
+      <path d="M895 260h-24v-42l-6-6h-96l-6 6v42h-13l-5 5v43h150Z"/>
+    </g>
+    <path d="M565 212h96 M769 212h96 M559 218v42h-24v48h150v-43 M871 218v42h24v48H745v-43 M667 218v42h13 M763 218v42h-13" fill="none" stroke="#516b81" stroke-width="2.2"/>
+    <path d="M559 218l6-6 M661 212l6 6 M763 218l6-6 M865 212l6 6" fill="none" stroke="#e7841a" stroke-width="4"/>
+    <path d="M680 260l5 5 M750 260l-5 5" fill="none" stroke="#c53434" stroke-width="4"/>
+    <g fill="none" stroke-width="1.6">
+      <path d="M580 166h-32l11 43" stroke="#a55a0b"/>
+      <path d="M716 168v63l-30 24" stroke="#c53434"/>
+      <path d="M715 338v-36" stroke="#516b81"/>
+    </g>
+    <g font-size="17" text-anchor="middle">
+      <text x="592" y="154" text-anchor="middle" fill="#934806">Фаска 1 мм</text>
+      <text x="729" y="154" text-anchor="middle" fill="#a52424">Фаска 0,8 мм</text>
+      <text x="715" y="361" text-anchor="middle">Наскрізний отвір</text>
+    </g>
+    <g font-size="18">
+      <rect x="20" y="405" width="920" height="95" rx="12" fill="#fff"/>
+      <text x="44" y="438" fill="#175abd" font-weight="bold">Fillet R4</text>
+      <text x="44" y="466">4 вертикальні кутові ребра</text>
+      <text x="44" y="488">основи</text>
+      <text x="351" y="438" fill="#934806" font-weight="bold">Chamfer 1 мм</text>
+      <text x="351" y="466">Верхні ребра обох</text>
+      <text x="351" y="488">виступів</text>
+      <text x="652" y="438" fill="#a52424" font-weight="bold">Chamfer 0,8 мм</text>
+      <text x="652" y="466">Верхнє кругове ребро</text>
+      <text x="652" y="488">отвору</text>
+    </g>
   </g>
 </svg>

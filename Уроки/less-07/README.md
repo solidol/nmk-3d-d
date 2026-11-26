@@ -18,9 +18,9 @@
 
 **Профіль** — замкнута область ескізу, яку можна вибрати для побудови. **Тіло** — суцільний об’ємний об’єкт, **грань** — частина його поверхні, а **ребро** — межа між двома гранями. Extrude додає профілю глибину та створює або змінює об’єм.
 
-![Основні результати операції Extrude](img/extrude-operations.svg)
+![Відкритий список Operation у діалозі Extrude в Autodesk Fusion](img/extrude-operation-menu.png)
 
-*Рисунок 2. Один замкнутий профіль може створити нове тіло, приєднати матеріал або вирізати його залежно від вибраної операції.*
+*Рисунок 2. У списку Operation видно Join, Cut і New Body. На скріншоті курсор наведено на New Body, а в полі ще вибрано Join. [Autodesk, Create extruded features, с. 3](https://files.upskill-dev.autodesk.com/public/fusion360-intro-modeling-design-professional/210831_SbS_L1-06_Create-extruded-features.pdf#page=3).*
 
 | Параметр | Призначення |
 | --- | --- |
