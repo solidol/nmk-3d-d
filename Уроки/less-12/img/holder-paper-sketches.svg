@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="450" viewBox="0 0 1000 450" role="img" aria-labelledby="title desc">
+  <title id="title">Два начерки тримача телефона на папері в клітинку</title>
+  <desc id="desc">Збоку показано нерухому опору з ребром жорсткості, телефон і шлях кабелю. Згори видно розташування двох ребер та відкритий проріз у бортику й основі.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto">
+      <path d="M0 0L6 3.5 0 7" fill="none" stroke="#475569"/>
+    </marker>
+    <marker id="cable-arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto">
+      <path d="M0 0L6 3.5 0 7" fill="none" stroke="#a34024"/>
+    </marker>
+  </defs>
+  <rect x="4" y="4" width="992" height="442" rx="14" fill="#fcfaf1" stroke="#ded7c2"/>
+  <path d="M22 13V437 M44 13V437 M66 13V437 M88 13V437 M110 13V437 M132 13V437 M154 13V437 M176 13V437 M198 13V437 M220 13V437 M242 13V437 M264 13V437 M286 13V437 M308 13V437 M330 13V437 M352 13V437 M374 13V437 M396 13V437 M418 13V437 M440 13V437 M462 13V437 M484 13V437 M506 13V437 M528 13V437 M550 13V437 M572 13V437 M594 13V437 M616 13V437 M638 13V437 M660 13V437 M682 13V437 M704 13V437 M726 13V437 M748 13V437 M770 13V437 M792 13V437 M814 13V437 M836 13V437 M858 13V437 M880 13V437 M902 13V437 M924 13V437 M946 13V437 M968 13V437 M13 22H987 M13 44H987 M13 66H987 M13 88H987 M13 110H987 M13 132H987 M13 154H987 M13 176H987 M13 198H987 M13 220H987 M13 242H987 M13 264H987 M13 286H987 M13 308H987 M13 330H987 M13 352H987 M13 374H987 M13 396H987 M13 418H987" fill="none" stroke="#dce3e2" stroke-width="1"/>
+  <path d="M500 23l1 399" stroke="#c6ccca" stroke-width="1.4" stroke-dasharray="6 7"/>
+  <g font-family="Arial,sans-serif" fill="#253348">
+    <g font-size="23" font-weight="bold">
+      <text x="34" y="54">А. Начерк збоку</text>
+      <text x="529" y="54">Б. Начерк згори</text>
+    </g>
+    <g stroke="#253348" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M93 334l138 1 151-1 42 1-1 13-156 1-174-1z" fill="#dce7ed"/>
+      <path d="M254 335l-51-176 12-4 56 180z" fill="#b3cbd8"/>
+      <path d="M192 335l37-86 25 87z" fill="#c6dbe5"/>
+      <path d="M270 316l-65-182q-2-7 5-9l14-5q6-2 8 5l66 181z" fill="#eeeae1"/>
+      <path d="M310 334l-1-26 13 1 1 26" fill="#b3cbd8"/>
+      <path d="M596 120l148 1 154-2-1 204-116 1v-72l-56 1 1 71-130-1z" fill="#dce7ed"/>
+      <path d="M636 169l40-1v40l-41 1z M820 168l41 1-1 40-41-1z" fill="#c6dbe5"/>
+      <path d="M620 207l253-1v15l-253 1z" fill="#b3cbd8"/>
+      <path d="M620 252l104 1v14l-105 1z M782 251l91 1v15l-92-1z" fill="#b3cbd8"/>
+    </g>
+    <g fill="none" stroke="#475569" stroke-width="1.6" marker-end="url(#arrow)">
+      <path d="M125 151l70 19"/><path d="M136 268l78 29"/>
+      <path d="M390 274l-67 34"/><path d="M133 376l36-24"/>
+      <path d="M684 98l-23 66"/><path d="M918 302l-44-32"/>
+    </g>
+    <path d="M280 312l5 13 10-3-5-14z" fill="#f4c09f" stroke="#a34024" stroke-width="2"/>
+    <path d="M290 324l4 11" fill="none" stroke="#a34024" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M294 335q3 8 19 8l142-1M752 237q-1 63 2 120" fill="none" stroke="#a34024" stroke-width="2.7" stroke-dasharray="7 5" marker-end="url(#cable-arrow)"/>
+    <path d="M272 333l2 17m29-17 2 17" fill="none" stroke="#a34024" stroke-dasharray="3 3"/>
+    <g font-size="18">
+      <text x="48" y="141">опора</text>
+      <text x="48" y="265">ребро</text>
+      <text x="359" y="265">бортик</text>
+      <text x="67" y="389">основа</text>
+      <text x="329" y="322" fill="#a34024">штекер</text>
+      <text x="251" y="420" fill="#a34024">пряма ділянка → вільний згин</text>
+      <text x="650" y="93">ребра за опорою</text>
+      <text x="903" y="322">бортик</text>
+      <text x="747" y="393" text-anchor="middle" fill="#a34024">проріз відкритий до переднього краю</text>
+    </g>
+  </g>
+</svg>
