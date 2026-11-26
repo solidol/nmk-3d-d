@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="480" viewBox="0 0 880 480" role="img" aria-labelledby="title desc">
+  <title id="title">Розрахунок глибини основи тримача</title>
+  <desc id="desc">Бічний вигляд. Телефон нахилений назад. Від переднього краю основи до нижньої точки осі телефона 45 мм, до вертикальної проєкції центра мас 72,4 мм, а до заднього краю 85 мм.</desc>
+  <defs>
+    <marker id="dim" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto-start-reverse">
+      <path d="M0 0L7 3.5L0 7Z" fill="#234c85"/>
+    </marker>
+  </defs>
+  <rect width="880" height="480" rx="14" fill="#f1f5f9"/>
+  <rect x="16" y="16" width="420" height="448" rx="12" fill="#fff"/>
+  <rect x="452" y="16" width="412" height="448" rx="12" fill="#fff"/>
+  <g font-family="Arial,sans-serif" fill="#172840">
+    <text x="38" y="54" font-size="23" font-weight="bold">Бічний розрахунковий ескіз</text>
+    <text x="478" y="54" font-size="23" font-weight="bold">Приклад, розміри в мм</text>
+    <g stroke="#1f517c" stroke-width="2" stroke-linejoin="round">
+      <path d="M100 380H270V390H100Z M170 380V348H179V368H199V380Z M194 380L273 163 281 166 203 380Z" fill="#b7def9"/>
+      <rect x="190" y="355" width="320" height="20" rx="5" transform="rotate(-70 190 365)" fill="#e4e8ef" stroke="#475569"/>
+    </g>
+    <g fill="none" stroke="#7891ab" stroke-width="1.3">
+      <path d="M100 392V453M190 367V415M270 392V453"/>
+      <path d="M190 365h49M214 365a24 24 0 0 0-15.8-22.6"/>
+    </g>
+    <path d="M190 365L299.4 64.3" fill="none" stroke="#64748b" stroke-dasharray="6 5"/>
+    <path d="M244.7 214.6V390" fill="none" stroke="#ab482a" stroke-width="2" stroke-dasharray="6 5"/>
+    <circle cx="244.7" cy="214.6" r="4.5" fill="#ab482a"/>
+    <circle cx="244.7" cy="390" r="3" fill="#ab482a"/>
+    <g fill="none" stroke="#234c85" stroke-width="1.4" marker-start="url(#dim)" marker-end="url(#dim)">
+      <path d="M102 412H188"/><path d="M102 448H268"/>
+      <path d="M170 355L221 215"/>
+    </g>
+    <g font-size="17">
+      <text x="117" y="405">a = 45</text><text x="156" y="441">D = 85</text>
+      <text x="135" y="278">h = 80</text><text x="208" y="352">α</text>
+      <text x="260" y="220" fill="#ab482a">Центр мас</text>
+      <text x="253" y="263" fill="#ab482a">вертикальна</text><text x="253" y="285" fill="#ab482a">проєкція</text>
+      <text x="39" y="372">перед</text><text x="279" y="387">задній край</text>
+    </g>
+    <g font-size="20">
+      <text x="478" y="102">Кут α = 70°, h = 80, a = 45</text>
+      <text x="478" y="157">Зміщення назад</text>
+      <text x="478" y="187" fill="#234c85">h · cos α ≈ 27,4</text>
+      <text x="478" y="238">Проєкція від переднього краю</text>
+      <text x="478" y="268" fill="#ab482a">x = 45 + 27,4 = 72,4</text>
+      <text x="478" y="319">Задній запас для основи 85 мм</text>
+      <text x="478" y="350" fill="#234c85">D − x = 85 − 72,4 = 12,6</text>
+      <text x="478" y="410" font-size="17">Глибину D вимірюють від переднього</text>
+      <text x="478" y="434" font-size="17">до заднього краю контакту зі столом.</text>
+    </g>
+  </g>
+</svg>
