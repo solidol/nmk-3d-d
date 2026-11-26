@@ -1,4 +1,4 @@
-"""Generate A4 PDFs from lesson and practical-work README.md files using Edge/Chrome."""
+"""Generate A4 PDFs from lesson README.md files using Edge/Chrome."""
 from __future__ import annotations
 
 import argparse
@@ -12,7 +12,7 @@ from pathlib import Path
 from urllib.parse import unquote, urlsplit
 
 ROOT = Path(__file__).resolve().parent
-GROUPS = (("Уроки", "less-*"), ("Практичні", "pract-*"))
+LESSONS = "Уроки"
 CSS = """
 @page { size: A4; margin: 18mm 17mm 20mm; }
 body { font-family: Arial, 'Segoe UI', sans-serif; font-size: 10.5pt;
@@ -51,13 +51,7 @@ def find_browser() -> Path | None:
 
 
 def find_documents(root: Path) -> list[Path]:
-    result = []
-    for group, pattern in GROUPS:
-        parent = root / group
-        if parent.is_dir():
-            result.extend(folder / "README.md" for folder in sorted(parent.glob(pattern))
-                          if folder.is_dir() and (folder / "README.md").is_file())
-    return result
+    return sorted((root / LESSONS).glob("less-*/README.md"))
 
 
 def fix_local_urls(body: str, source: Path, output: Path, root: Path) -> str:
@@ -76,12 +70,13 @@ def fix_local_urls(body: str, source: Path, output: Path, root: Path) -> str:
                 relative = target.parent.relative_to(root)
             except ValueError:
                 relative = None
-            if relative is not None and len(relative.parts) == 2 and relative.parts[0] in ("Уроки", "Практичні"):
+            if (relative is not None and len(relative.parts) == 2
+                    and relative.parts[0] == LESSONS and relative.parts[1].startswith("less-")):
                 target = output / relative / f"{relative.parts[1]}.pdf"
         absolute_url = target.as_uri()
         if parsed.query:
             absolute_url += "?" + parsed.query
-        if parsed.fragment:
+        if parsed.fragment and target.suffix != ".pdf":
             absolute_url += "#" + parsed.fragment
         return f'{attr}={quote}{html.escape(absolute_url, quote=True)}{quote}'
     return re.sub(r'''(href|src)\s*=\s*(["'])(.*?)\2''', replace, body,
@@ -104,7 +99,7 @@ def main() -> int:
         return 1
     documents = find_documents(ROOT)
     if not documents:
-        print("Не знайдено README.md у каталогах Уроки/less-* або Практичні/pract-*.", file=sys.stderr)
+        print("Не знайдено README.md у каталогах Уроки/less-*.", file=sys.stderr)
         return 1
     output = args.output.resolve()
     failures = 0
@@ -116,7 +111,11 @@ def main() -> int:
             destination = output / relative / f"{source.parent.name}.pdf"
             try:
                 body = markdown.markdown(source.read_text(encoding="utf-8"),
-                                         extensions=["tables", "fenced_code", "sane_lists"])
+                                         extensions=["tables", "fenced_code", "sane_lists", "toc"],
+                                         extension_configs={"toc": {
+                                             "slugify": lambda value, sep: re.sub(
+                                                 r"[^\w\s-]", "", value.lower()).replace(" ", sep)
+                                         }})
                 body = fix_local_urls(body, source, output, ROOT)
                 page = ("<!doctype html><html lang='uk'><head><meta charset='utf-8'>"
                         f"<style>{CSS}</style></head><body>{body}</body></html>")
