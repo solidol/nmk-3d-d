@@ -15,17 +15,17 @@
     <path d="M618 330l50-143" stroke="#15817d" stroke-width="4"/>
     <circle cx="202" cy="126" r="4.5" fill="#ad492c"/>
     <circle cx="643" cy="258" r="4" fill="#ad492c"/>
-    <path d="M202 126h270" fill="none" stroke="#64748b" stroke-width="1.6" stroke-dasharray="5 6"/>
-    <path d="M202 126L643 258" fill="none" stroke="#ad492c" stroke-width="2.6"/>
+    <path d="M209 126h263" fill="none" stroke="#64748b" stroke-width="1.6" stroke-dasharray="5 6"/>
+    <path d="M208 128L638 256.5" fill="none" stroke="#ad492c" stroke-width="2.6"/>
     <path d="M276 126a74 74 0 0 1-3.1 21.2" fill="none" stroke="#ad492c" stroke-width="2"/>
-    <path d="M618 330h78m-40 0a38 38 0 0 0-25.5-35.9" fill="none" stroke="#215583" stroke-width="1.8"/>
+    <path d="M640 330h56 M666 328a48 48 0 0 0-28.9-42.8" fill="none" stroke="#215583" stroke-width="1.8"/>
     <path d="M710 176l-39 13" fill="none" stroke="#15817d" stroke-width="1.5"/>
     <g font-size="17">
       <text x="286" y="116" fill="#475569">горизонталь на рівні очей</text>
       <text x="330" y="153" fill="#ad492c" transform="rotate(16.7 330 153)">лінія погляду</text>
       <text x="280" y="149" fill="#ad492c">β</text>
       <text x="716" y="180" fill="#15817d">екран</text>
-      <text x="663" y="315" fill="#215583">α</text>
+      <text x="671" y="314" fill="#215583">α</text>
       <text x="741" y="377">стільниця</text>
       <text x="39" y="380" fill="#ad492c">β — кут погляду вниз</text>
       <text x="280" y="380" fill="#215583">α — кут екрана до стільниці</text>

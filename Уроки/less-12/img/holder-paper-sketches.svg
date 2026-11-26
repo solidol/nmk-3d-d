@@ -35,8 +35,8 @@
     </g>
     <path d="M280 312l5 13 10-3-5-14z" fill="#f4c09f" stroke="#a34024" stroke-width="2"/>
     <path d="M290 324l4 11" fill="none" stroke="#a34024" stroke-width="3.5" stroke-linecap="round"/>
-    <path d="M294 335q3 8 19 8l142-1M752 237q-1 63 2 120" fill="none" stroke="#a34024" stroke-width="2.7" stroke-dasharray="7 5" marker-end="url(#cable-arrow)"/>
-    <path d="M272 333l2 17m29-17 2 17" fill="none" stroke="#a34024" stroke-dasharray="3 3"/>
+    <path d="M294 335q3 8 19 8l128-1M752 237q-1 63 2 120" fill="none" stroke="#a34024" stroke-width="2.7" stroke-dasharray="7 5" marker-end="url(#cable-arrow)"/>
+    <path d="M272 335v13m32-13v13" fill="none" stroke="#a34024" stroke-dasharray="3 3"/>
     <g font-size="18">
       <text x="48" y="141">опора</text>
       <text x="48" y="265">ребро</text>

@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="430" viewBox="0 0 1100 430" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1140" height="430" viewBox="0 0 1140 430" role="img" aria-labelledby="title desc">
   <title id="title">П’ять тіл обертання для основи брелока</title><desc id="desc">Силуети пішака, пляшечки, дзвіночка, капсули та башти з умовними вушками.</desc>
-  <rect width="1100" height="430" fill="#f8fafc"/>
+  <rect width="1140" height="430" fill="#f8fafc"/>
   <g fill="#bfdbfe" stroke="#1d4ed8" stroke-width="4">
     <g transform="translate(45 35)"><path d="M30 320h150l-18-35-42-30 18-105-30-25 18-35H84l18 35-30 25 18 105-42 30Z"/><circle cx="105" cy="62" r="38"/><rect x="145" y="120" width="58" height="38" rx="19"/><circle cx="180" cy="139" r="9" fill="#fff"/></g>
     <g transform="translate(260 35)"><path d="M35 320h150l-12-28q-38-55-28-145l-20-32V55H95v60l-20 32q10 90-28 145Z"/><rect x="138" y="62" width="62" height="38" rx="19"/><circle cx="175" cy="81" r="9" fill="#fff"/></g>
@@ -8,5 +8,5 @@
     <g transform="translate(690 35)"><path d="M68 300q-30-25-30-65V120q0-55 72-85 72 30 72 85v115q0 40-30 65Z"/><rect x="140" y="65" width="62" height="38" rx="19"/><circle cx="177" cy="84" r="9" fill="#fff"/></g>
     <g transform="translate(905 35)"><path d="M40 320h145l-12-35h-18V130l-20-30V65H90v35l-20 30v155H52Z"/><path d="M78 65h70l-20-40h-30Z"/><rect x="140" y="118" width="62" height="38" rx="19"/><circle cx="177" cy="137" r="9" fill="#fff"/></g>
   </g>
-  <g font-family="Arial" font-size="22" text-anchor="middle" fill="#0f172a"><text x="150" y="405">1. Пішак</text><text x="365" y="405">2. Пляшечка</text><text x="580" y="405">3. Дзвіночок</text><text x="795" y="405">4. Капсула</text><text x="1010" y="405">5. Башта</text></g>
+  <g font-family="Arial" font-size="22" text-anchor="middle" fill="#0f172a"><text x="150" y="405" text-anchor="middle">1. Пішак</text><text x="365" y="405" text-anchor="middle">2. Пляшечка</text><text x="580" y="405" text-anchor="middle">3. Дзвіночок</text><text x="795" y="405" text-anchor="middle">4. Капсула</text><text x="1010" y="405" text-anchor="middle">5. Башта</text></g>
 </svg>
