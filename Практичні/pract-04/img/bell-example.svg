@@ -2,17 +2,17 @@
   <title id="title">Навчальний профіль і модель дзвона</title><desc id="desc">Половинний профіль дзвона з розмірами та результат повного обертання з вушком.</desc>
   <defs><marker id="a" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M8 0 0 4 8 8" fill="none" stroke="#334155"/></marker></defs>
   <rect width="1000" height="560" fill="#f8fafc"/>
-  <g transform="translate(40 35)">
-    <path d="M230 455V35" stroke="#64748b" stroke-width="3" stroke-dasharray="9 7"/>
+  <g transform="translate(40 20)">
+    <path d="M230 464V459M230 82V35" stroke="#64748b" stroke-width="3" stroke-dasharray="9 7"/>
     <path d="M230 455h150v-55h-20q-38-105-42-245h-28v-70h-60Z" fill="#fef3c7" stroke="#b45309" stroke-width="5"/>
-    <path d="M230 385h145M230 365h138M230 150h88M230 130h88" stroke="#b45309" stroke-width="4"/>
+    <path d="M230 385H355 M230 365H348 M230 150H290 M230 130H290" stroke="#b45309" stroke-width="4"/>
     <g stroke="#334155" stroke-width="2" fill="none">
-      <path d="M195 455h-55M195 35h-55M160 455V35" marker-start="url(#a)" marker-end="url(#a)"/>
+      <path d="M195 455h-55M195 85h-55"/><path d="M160 455V85" marker-start="url(#a)" marker-end="url(#a)"/>
       <path d="M230 500h150" marker-start="url(#a)" marker-end="url(#a)"/>
       <path d="M230 330h110" marker-start="url(#a)" marker-end="url(#a)"/>
-      <path d="M230 105h60" marker-start="url(#a)" marker-end="url(#a)"/>
+      <path d="M290 105h10"/><path d="M230 105h60" marker-start="url(#a)" marker-end="url(#a)"/>
     </g>
-    <g font-family="Arial" font-size="22" fill="#0f172a"><text x="105" y="255">48</text><text x="285" y="530">R15</text><text x="270" y="320">R11</text><text x="245" y="95">R6</text><text x="230" y="25">вісь</text><text x="230" y="490">половинний профіль</text></g>
+    <g font-family="Arial" font-size="22" fill="#0f172a"><text x="105" y="255">48</text><text x="285" y="530">R15</text><text x="270" y="320">R11</text><text x="306" y="111">R6</text><text x="230" y="25">вісь</text><text x="95" y="481">половинний профіль</text></g>
   </g>
   <g transform="translate(570 45)" fill="#fcd34d" stroke="#b45309" stroke-width="5">
     <ellipse cx="175" cy="410" rx="150" ry="38"/>
