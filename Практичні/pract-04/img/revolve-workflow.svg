@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="390" viewBox="0 0 1000 390" role="img" aria-labelledby="title desc">
+  <title id="title">Послідовність створення брелока з тілом обертання</title><desc id="desc">Профіль обертається, до тіла додається вушко, отвір і напис.</desc>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0 0 10 5 0 10Z" fill="#475569"/></marker></defs>
+  <rect width="1000" height="390" fill="#f8fafc"/>
+  <g transform="translate(30 45)"><path d="M80 270V25" stroke="#64748b" stroke-width="3" stroke-dasharray="8 6"/><path d="M80 270h90l-15-45-35-50 20-75-25-35H80Z" fill="#dbeafe" stroke="#1d4ed8" stroke-width="4"/><text x="100" y="320" font-family="Arial" font-size="22" text-anchor="middle">1. Профіль</text></g>
+  <path d="M230 165h65" stroke="#475569" stroke-width="5" marker-end="url(#arrow)"/>
+  <g transform="translate(310 40)"><ellipse cx="105" cy="270" rx="80" ry="22" fill="#93c5fd" stroke="#1d4ed8" stroke-width="4"/><path d="M25 270q15-55 45-95l-10-75q45-65 90 0l-10 75q30 40 45 95" fill="#bfdbfe" stroke="#1d4ed8" stroke-width="4"/><text x="105" y="325" font-family="Arial" font-size="22" text-anchor="middle">2. Revolve</text></g>
+  <path d="M520 165h65" stroke="#475569" stroke-width="5" marker-end="url(#arrow)"/>
+  <g transform="translate(595 40)"><ellipse cx="105" cy="270" rx="80" ry="22" fill="#93c5fd" stroke="#1d4ed8" stroke-width="4"/><path d="M25 270q15-55 45-95l-10-75q45-65 90 0l-10 75q30 40 45 95" fill="#bfdbfe" stroke="#1d4ed8" stroke-width="4"/><rect x="145" y="90" width="65" height="42" rx="21" fill="#dbeafe" stroke="#1d4ed8" stroke-width="4"/><circle cx="182" cy="111" r="9" fill="#fff" stroke="#1d4ed8" stroke-width="3"/><text x="110" y="325" font-family="Arial" font-size="22" text-anchor="middle">3. Вушко й отвір</text></g>
+  <path d="M815 165h45" stroke="#475569" stroke-width="5" marker-end="url(#arrow)"/>
+  <g transform="translate(860 75)"><path d="M15 210q10-45 32-80l-8-60q35-50 70 0l-8 60q22 35 32 80Z" fill="#bfdbfe" stroke="#1d4ed8" stroke-width="4"/><text x="74" y="145" font-family="Arial" font-size="20" text-anchor="middle" fill="#1e3a8a">ІМ’Я</text><text x="74" y="285" font-family="Arial" font-size="22" text-anchor="middle">4. Текст</text></g>
+</svg>

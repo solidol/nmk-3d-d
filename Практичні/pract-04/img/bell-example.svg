@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" role="img" aria-labelledby="title desc">
+  <title id="title">Навчальний профіль і модель дзвона</title><desc id="desc">Половинний профіль дзвона з розмірами та результат повного обертання з вушком.</desc>
+  <defs><marker id="a" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M8 0 0 4 8 8" fill="none" stroke="#334155"/></marker></defs>
+  <rect width="1000" height="560" fill="#f8fafc"/>
+  <g transform="translate(40 35)">
+    <path d="M230 455V35" stroke="#64748b" stroke-width="3" stroke-dasharray="9 7"/>
+    <path d="M230 455h150v-55h-20q-38-105-42-245h-28v-70h-60Z" fill="#fef3c7" stroke="#b45309" stroke-width="5"/>
+    <path d="M230 385h145M230 365h138M230 150h88M230 130h88" stroke="#b45309" stroke-width="4"/>
+    <g stroke="#334155" stroke-width="2" fill="none">
+      <path d="M195 455h-55M195 35h-55M160 455V35" marker-start="url(#a)" marker-end="url(#a)"/>
+      <path d="M230 500h150" marker-start="url(#a)" marker-end="url(#a)"/>
+      <path d="M230 330h110" marker-start="url(#a)" marker-end="url(#a)"/>
+      <path d="M230 105h60" marker-start="url(#a)" marker-end="url(#a)"/>
+    </g>
+    <g font-family="Arial" font-size="22" fill="#0f172a"><text x="105" y="255">48</text><text x="285" y="530">R15</text><text x="270" y="320">R11</text><text x="245" y="95">R6</text><text x="230" y="25">вісь</text><text x="230" y="490">половинний профіль</text></g>
+  </g>
+  <g transform="translate(570 45)" fill="#fcd34d" stroke="#b45309" stroke-width="5">
+    <ellipse cx="175" cy="410" rx="150" ry="38"/>
+    <path d="M25 410v-45c0-20 25-35 35-55 45-90 55-175 55-240h120c0 65 10 150 55 240 10 20 35 35 35 55v45" fill="#fef3c7"/>
+    <ellipse cx="175" cy="70" rx="60" ry="22" fill="#fde68a"/>
+    <path d="M70 310h210M95 285h160M115 145h120" fill="none"/>
+    <rect x="135" y="15" width="80" height="58" rx="28" fill="#fde68a"/>
+    <circle cx="175" cy="44" r="13" fill="#fff"/>
+    <text x="175" y="245" font-family="Arial" font-size="30" text-anchor="middle" fill="#92400e" stroke="none">ДЗВІН</text>
+  </g>
+  <text x="745" y="535" font-family="Arial" font-size="23" text-anchor="middle" fill="#0f172a">Revolve 360° + вушко + напис</text>
+</svg>
